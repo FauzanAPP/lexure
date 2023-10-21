@@ -1,0 +1,187 @@
+@import url("https://fonts.googleapis.com/css2?family=Gabarito&family=Lexend&family=Lilita+One&family=Noto+Sans+JP:wght@400;500&Rubik:wght@500;display=swap");
+
+html {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  background-image: url(../images/bg-1.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+}
+/** Navbar **/
+
+nav .container-fluid div {
+  backdrop-filter: blur(5px);
+}
+.nav-item {
+  font-family: "Gabarito";
+}
+
+#hero .container .row .col h2 {
+  font-size: 100px;
+  text-shadow: 3px 2px 2px black;
+  letter-spacing: 3px;
+  margin-top: 230px;
+  font-family: "Gabarito";
+}
+
+#hero .container .row .col-md-6 a {
+  padding: 5px 105px;
+}
+
+#hero .container .row .col p {
+  margin-top: -10px;
+  opacity: 80%;
+  font-size: 15px;
+  font-family: "Gabarito";
+}
+
+swiper-container {
+  width: 100%;
+  height: 100%;
+}
+
+swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: transparent;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/** Gallery **/
+
+#gallery .container .row .col h3 {
+  margin-top: 40px;
+  font-size: 1rem;
+  font-family: "Lexend";
+}
+
+#gallery .container .row .col p {
+  text-indent: 2em;
+  font-family: "Gabarito";
+  font-size: 12px;
+  opacity: 70%;
+  position: absolute;
+  text-align: justify;
+  padding-right: 14px;
+}
+
+.box {
+  margin-top: 150px;
+  padding: 1rem 2rem;
+}
+@media screen and (min-width: 345px) and (max-width: 991px) {
+  .navbar {
+    z-index: 1;
+    background-color: #000000b0;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  #gallery .container .row .col p {
+    padding-right: 40px;
+  }
+
+  nav .container-fluid div {
+    position: relative;
+    margin-left: 400px;
+  }
+
+  .nav-item {
+    width: 120px;
+  }
+
+  nav .container-fluid div ul {
+    padding: 0 5rem;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  #gallery .container .row .col p {
+    padding-right: 40px;
+  }
+
+  nav .container-fluid div {
+    position: relative;
+    margin-left: 230px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  #gallery .container .row .col p {
+    padding-right: 85px;
+  }
+
+  nav .container-fluid div {
+    position: relative;
+    margin-left: 345px;
+  }
+}
+
+@media screen and (min-width: 1366px) {
+  #gallery .container .row .col p {
+    padding-right: 135px;
+  }
+
+  nav .container-fluid div {
+    position: relative;
+    margin-left: 390px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  #gallery .container .row .col p {
+    padding-right: 60px;
+  }
+
+  nav .container-fluid div {
+    position: relative;
+    margin-left: 420px;
+  }
+}
+
+@media screen and (min-width: 1920px) {
+  #gallery .container .row .col p {
+    padding-right: 310px;
+  }
+
+  nav .container-fluid div {
+    position: relative;
+    margin-left: 650px;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  nav .container-fluid div {
+    padding: 1rem 2rem;
+    margin-top: 40px;
+    border: 2px solid gray;
+    border-radius: 20px;
+    text-align: center;
+  }
+
+  .nav-item {
+    transition: 0.8s ease;
+  }
+
+  .nav-item:hover {
+    background-color: #13c6ffac;
+    border-radius: 20px;
+  }
+
+  nav .container-fluid div ul li a {
+    color: white;
+  }
+}
